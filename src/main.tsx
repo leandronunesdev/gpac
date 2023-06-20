@@ -5,6 +5,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import ErrorPage from "./routes/ErrorPage.tsx";
 import Home from "./routes/Home.tsx";
 import Contact from "./routes/Contact.tsx";
+import "./main.css";
 
 const router = createBrowserRouter([
   {
@@ -17,7 +18,7 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "/",
+        path: "/contact",
         element: <Contact />,
       },
     ],
