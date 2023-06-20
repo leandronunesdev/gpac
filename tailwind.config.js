@@ -7,6 +7,11 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        bebasNeue: ["Bebas Neue", "sans-serif"],
+        oswald: ["Oswald", "sans-serif"],
+        raleway: ["Raleway", "sans-serif"],
+      },
       colors: {
         white: "#FFFFFF",
         red: "#ED1F34",
