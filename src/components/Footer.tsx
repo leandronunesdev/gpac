@@ -1,12 +1,10 @@
 const Footer = () => {
   return (
-    <div>
-      <p className="font-oswald font-extralight">Oswald</p>
-      <p className="font-oswald font-semibold">Oswald</p>
-      <p className="font-oswald font-bold">Oswald</p>
-
-      <p className="font-raleway">Raleway</p>
-      <p className="font-bebasNeue">Neuw</p>
+    <div className="bg-darkGray flex flex-col items-center justify-center h-72">
+      <p className="font-bebasNeue text-5xl uppercase text-white">Faun</p>
+      <p className="font-raleway uppercase text-xl text-white">
+        Faun template edited by e-tools comunicação digital
+      </p>
     </div>
   );
 };
