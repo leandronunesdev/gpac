@@ -4,7 +4,7 @@ import { faBars, faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 
 const Header = () => {
   return (
-    <div className="w-[1080px] flex bg-black items-center m-auto justify-between pt-20">
+    <div className="max-w-[1080px] flex bg-black items-center justify-between pt-20 absolute left-0 right-0 mx-auto px-1">
       <FontAwesomeIcon icon={faBars} size="2xl" style={{ color: "#ffffff" }} />
       <Logo />
       <FontAwesomeIcon

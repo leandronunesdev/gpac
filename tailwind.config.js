@@ -18,6 +18,13 @@ export default {
         gray: "#8D8D8D1A",
         darkGray: "#222222",
       },
+      backgroundImage: {
+        "hero-pattern":
+          "url('/src/assets/images/background-section-topo-2.png')",
+        "hero-gray-pattern":
+          "url('/src/assets/images/background-section-top.png')",
+        test: "url('/src/assets/images/test.jpg')",
+      },
     },
   },
   plugins: [],
