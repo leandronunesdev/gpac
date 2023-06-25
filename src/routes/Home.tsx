@@ -1,6 +1,5 @@
-import Carousel from "../components/Carousel";
+import Playlists from "../components/Playlists";
 import Hero from "../components/Hero";
-import PlayLists from "../components/PlayLists";
 import Video from "../components/Video";
 
 const Home = () => {
@@ -8,8 +7,7 @@ const Home = () => {
     <>
       <Hero />
       <Video />
-      <PlayLists />
-      <Carousel />
+      <Playlists />
     </>
   );
 };
