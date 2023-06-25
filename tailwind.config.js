@@ -23,7 +23,6 @@ export default {
           "url('/src/assets/images/background-section-topo-2.png')",
         "hero-gray-pattern":
           "url('/src/assets/images/background-section-top.png')",
-        test: "url('/src/assets/images/test.jpg')",
       },
     },
   },

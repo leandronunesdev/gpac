@@ -6,8 +6,8 @@ const Home = () => {
   return (
     <>
       <Hero />
-      <Video />
-      <Playlists />
+      {/* <Video />
+      <Playlists /> */}
     </>
   );
 };
