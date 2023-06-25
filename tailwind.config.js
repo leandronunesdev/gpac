@@ -17,12 +17,14 @@ export default {
         red: "#ED1F34",
         gray: "#8D8D8D1A",
         darkGray: "#222222",
+        blackTitle: "#202020",
       },
       backgroundImage: {
         "hero-pattern":
           "url('/src/assets/images/background-section-topo-2.png')",
         "hero-gray-pattern":
           "url('/src/assets/images/background-section-top.png')",
+        about: "url('/src/assets/images/about-bg.svg')",
       },
     },
   },

@@ -11,20 +11,18 @@ const Video = () => {
     if (isClicked) {
       video[0].play();
     }
-  }, [isClicked]);
+  }, [isClicked, video]);
 
   return (
     <div className="grayscale">
-      {/* <div className="bg-black/50 absolute h-[930px] w-full" /> */}
       <div>
         {!isClicked && (
           <img
             src={PlayIcon}
-            className="absolute left-0 right-0 mx-auto mt-96 cursor-pointer"
+            className="absolute left-0 right-0 mx-auto mt-96 cursor-pointer animate-fade-in-right"
           />
         )}
       </div>
-
       <video
         width="100%"
         autoPlay
@@ -35,7 +33,6 @@ const Video = () => {
         controlsList="nodownload nofullscreen noplaybackrate"
         onClick={() => setIsClicked(!isClicked)}
         onPause={() => setIsClicked(false)}
-        start
       >
         <source src={VideoFile} />
         Your browser does not support the video tag.
