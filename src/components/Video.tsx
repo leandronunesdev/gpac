@@ -1,13 +1,21 @@
 import VideoFile from "../assets/videos/video.mp4";
 import PlayIcon from "../assets/images/play.png";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const Video = () => {
   const [isClicked, setIsClicked] = useState<boolean>(false);
 
+  const video = document.getElementsByTagName("video");
+
+  useEffect(() => {
+    if (isClicked) {
+      video[0].play();
+    }
+  }, [isClicked]);
+
   return (
-    <div>
-      <div className="bg-black/50 absolute h-[930px] w-full" />
+    <div className="grayscale">
+      {/* <div className="bg-black/50 absolute h-[930px] w-full" /> */}
       <div>
         {!isClicked && (
           <img
@@ -26,6 +34,8 @@ const Video = () => {
         disablePictureInPicture
         controlsList="nodownload nofullscreen noplaybackrate"
         onClick={() => setIsClicked(!isClicked)}
+        onPause={() => setIsClicked(false)}
+        start
       >
         <source src={VideoFile} />
         Your browser does not support the video tag.
