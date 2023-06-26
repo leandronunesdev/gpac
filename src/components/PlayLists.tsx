@@ -126,13 +126,13 @@ const Playlists = () => {
   }, []);
 
   return (
-    <div className="carousel mx-auto grayscale" id="playlists">
+    <div className="carousel mx-auto " id="playlists">
       {playLists.length > 0 && (
         <div className="relative overflow-hidden">
           <div className="flex justify-between absolute top left w-full h-full">
             <button
               onClick={movePrev}
-              className="hover:bg-blue-900/75 text-white w-10 h-full text-center opacity-75 hover:opacity-100 disabled:opacity-25 disabled:cursor-not-allowed z-10 p-0 m-0 transition-all ease-in-out duration-300"
+              className="hover:bg-red/75 text-white w-10 h-full text-center opacity-75 hover:opacity-100 disabled:opacity-25 disabled:cursor-not-allowed z-10 p-0 m-0 transition-all ease-in-out duration-300"
               disabled={isDisabled("prev")}
             >
               <svg
@@ -153,7 +153,7 @@ const Playlists = () => {
             </button>
             <button
               onClick={moveNext}
-              className="hover:bg-blue-900/75 text-white w-10 h-full text-center opacity-75 hover:opacity-100 disabled:opacity-25 disabled:cursor-not-allowed z-10 p-0 m-0 transition-all ease-in-out duration-300"
+              className="hover:bg-red/75 text-white w-10 h-full text-center opacity-75 hover:opacity-100 disabled:opacity-25 disabled:cursor-not-allowed z-10 p-0 m-0 transition-all ease-in-out duration-300"
               disabled={isDisabled("next")}
             >
               <svg
@@ -186,7 +186,7 @@ const Playlists = () => {
                   <a
                     href={playlist.external_urls.spotify}
                     target="_blank"
-                    className="h-full w-full aspect-square block bg-origin-padding bg-left-top bg-cover bg-no-repeat z-0"
+                    className="h-full w-full aspect-square block bg-origin-padding bg-left-top bg-cover bg-no-repeat z-0 grayscale"
                     style={{
                       backgroundImage: `url(${playlist.images[0].url})`,
                     }}
@@ -200,9 +200,9 @@ const Playlists = () => {
                   <a
                     href={playlist.external_urls.spotify}
                     target="_blank"
-                    className="h-full w-full aspect-square block absolute top-0 left-0 transition-opacity duration-300 opacity-0 hover:opacity-100 bg-blue-800/75 z-10"
+                    className="h-full w-full aspect-square block absolute top-0 left-0 transition-opacity duration-300 opacity-0 hover:opacity-100 bg-red/50 z-10"
                   >
-                    <h3 className="text-white py-6 px-3 mx-auto text-xl">
+                    <h3 className="text-white py-6 px-3 mx-auto text-xl font-raleway">
                       {playlist.name}
                     </h3>
                   </a>
