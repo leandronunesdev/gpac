@@ -15,7 +15,7 @@ export default {
       colors: {
         white: "#FFFFFF",
         red: "#ED1F34",
-        gray: "#8D8D8D1A",
+        gray: "#8D8D8D",
         darkGray: "#222222",
         blackTitle: "#202020",
       },
@@ -26,6 +26,7 @@ export default {
           "url('/src/assets/images/background-section-top.png')",
         about: "url('/src/assets/images/about-bg.svg')",
         hire: "url('/src/assets/images/hire.png')",
+        contact: "url('/src/assets/images/contact.png')",
       },
     },
   },

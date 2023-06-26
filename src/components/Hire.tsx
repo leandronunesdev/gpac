@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Button from "./Button";
 
 interface HireProps {
   title: string;
@@ -16,9 +17,7 @@ const Hire = ({ title }: HireProps) => {
         vehicula rutrum. Vestibulum pulvinar sapien.
       </p>
       <Link to="/contact">
-        <button className="text-[28px] font-bebasNeue border-2 pt-[22px] px-[40px] pb-[16px]">
-          Contact with us
-        </button>
+        <Button text="Contact with us" />
       </Link>
     </div>
   );
