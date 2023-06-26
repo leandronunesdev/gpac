@@ -25,6 +25,7 @@ export default {
         "hero-gray-pattern":
           "url('/src/assets/images/background-section-top.png')",
         about: "url('/src/assets/images/about-bg.svg')",
+        hire: "url('/src/assets/images/hire.png')",
       },
     },
   },
