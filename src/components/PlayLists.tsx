@@ -124,7 +124,7 @@ const Playlists = () => {
   }, []);
 
   return (
-    <div className="carousel mx-auto grayscale">
+    <div className="carousel mx-auto grayscale" id="playlists">
       {playLists.length > 0 && (
         <div className="relative overflow-hidden">
           <div className="flex justify-between absolute top left w-full h-full">

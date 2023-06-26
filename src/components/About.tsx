@@ -2,7 +2,10 @@ import AboutImage from "../assets/images/thumb-about-us.png";
 
 const About = () => {
   return (
-    <div className="h-[770px] bg-about bg-no-repeat pt-[160px]  max-sm:pt-[60px]">
+    <div
+      className="h-[770px] bg-about bg-no-repeat pt-[160px]  max-sm:pt-[60px]"
+      id="about"
+    >
       <div className="max-w-[1280px] flex items-center left-0 right-0 mx-auto justify-between px-[24px] max-sm:flex-col">
         <div className="xl:max-w-[508px] lg:max-w-[400px] md:max-w-[300px] sm:max-w-[200px] max-sm:pb-[40px]">
           <h1 className="uppercase font-oswald font-semibold text-[46px] text-blackTitle pb-[40px]">

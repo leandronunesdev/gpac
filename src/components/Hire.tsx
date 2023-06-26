@@ -9,7 +9,10 @@ interface HireProps {
 
 const Hire = ({ title, buttonType }: HireProps) => {
   return (
-    <div className="h-[774px] bg-hire bg-black text-white flex flex-col items-center bg-fixed bg-no-repeat bg-cover bg-center">
+    <div
+      className="h-[774px] bg-hire bg-black text-white flex flex-col items-center bg-fixed bg-no-repeat bg-cover bg-center"
+      id="contact"
+    >
       <h1 className="uppercase text-[69px] font-bebasNeue pt-[224px] pb-[50px]">
         {title}
       </h1>

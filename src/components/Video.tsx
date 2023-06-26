@@ -14,7 +14,7 @@ const Video = () => {
   }, [isClicked, video]);
 
   return (
-    <div>
+    <div id="video">
       <div>
         {!isClicked && (
           <div className="relative z-50">

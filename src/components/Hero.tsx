@@ -29,6 +29,7 @@ const Hero = () => {
                     imageIndex === index ? "opacity-[1]" : "opacity-[0.5]"
                   } cursor-pointer`}
                   onClick={() => setImageIndex(index)}
+                  key={option.id}
                 >
                   {option.id}
                 </li>
