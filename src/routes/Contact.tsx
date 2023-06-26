@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <>
       <ContactHero />
-      <Hire title="Send a message for us" />
+      <Hire title="Send a message for us" buttonType="section" />
       <ContactForm />
     </>
   );

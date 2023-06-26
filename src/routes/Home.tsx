@@ -11,7 +11,7 @@ const Home = () => {
       <About />
       <Video />
       <Playlists />
-      <Hire title="Want to hire us?" />
+      <Hire title="Want to hire us?" buttonType="page" />
     </>
   );
 };

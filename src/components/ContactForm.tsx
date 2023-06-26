@@ -20,7 +20,10 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="h-[806px] bg-contact bg-no-repeat bg-left-bottom flex items-center m-auto">
+    <div
+      className="h-[806px] bg-contact bg-no-repeat bg-left-bottom flex items-center m-auto"
+      id="contact"
+    >
       <div className="flex mx-auto items-center">
         <div className="h-[206px] flex flex-col justify-between">
           <ContactChannel type="email" contact="faun@faun.com" />

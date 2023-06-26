@@ -1,11 +1,13 @@
-import { Link } from "react-router-dom";
+import { Link as PageLink } from "react-router-dom";
+import { Link as SectionLink } from "react-scroll";
 import Button from "./Button";
 
 interface HireProps {
   title: string;
+  buttonType: "page" | "section";
 }
 
-const Hire = ({ title }: HireProps) => {
+const Hire = ({ title, buttonType }: HireProps) => {
   return (
     <div className="h-[774px] bg-hire bg-black text-white flex flex-col items-center bg-fixed bg-no-repeat bg-cover bg-center">
       <h1 className="uppercase text-[69px] font-bebasNeue pt-[224px] pb-[50px]">
@@ -16,9 +18,15 @@ const Hire = ({ title }: HireProps) => {
         tincidunt dui, vitae posuere ipsum. Praesent vehicula nunc eget risus
         vehicula rutrum. Vestibulum pulvinar sapien.
       </p>
-      <Link to="/contact">
-        <Button text="Contact with us" />
-      </Link>
+      {buttonType === "page" ? (
+        <PageLink to="/contact">
+          <Button text="Contact with us" />
+        </PageLink>
+      ) : (
+        <SectionLink to="contact" smooth={true} duration={500}>
+          <Button text="Contact with us" />
+        </SectionLink>
+      )}
     </div>
   );
 };
