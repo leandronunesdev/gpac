@@ -2,16 +2,16 @@ import Hero from "../components/Hero";
 import Video from "../components/Video";
 import About from "../components/About";
 import Hire from "../components/Hire";
-import Playlists from "../components/PlayLists";
+import Playlists from "../components/Playlists";
 
 const Home = () => {
   return (
     <>
       <Hero />
-      <About />
+      {/* <About />
       <Video />
       <Playlists />
-      <Hire title="Want to hire us?" buttonType="page" />
+      <Hire title="Want to hire us?" buttonType="page" /> */}
     </>
   );
 };
