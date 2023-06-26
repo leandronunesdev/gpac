@@ -15,7 +15,7 @@ const About = () => {
             ultrices turpis vestibulum at.
           </p>
         </div>
-        <div className="max-w-[691px] relative">
+        <div className="max-w-[691px] relative animate-fade-in-right">
           <img src={AboutImage} alt="Band Image" className="" />
           <p className="uppercase font-oswald font-semibold text-[140px] text-red absolute md:top-[350px] md:right-[-60px] sm:top-[170px] max-sm:right-[-20px] max-sm:top-[150px] max-sm:text-[70px] sm:text-[100px]">
             Concert
