@@ -9,7 +9,9 @@ interface PlayListImage {
 interface PlayList {
   name: string;
   images: PlayListImage[];
-  href: string;
+  external_urls: {
+    spotify: string;
+  };
 }
 
 interface Token {
@@ -182,7 +184,8 @@ const Playlists = () => {
                   className="carousel-item text-center relative w-64 h-64 snap-start"
                 >
                   <a
-                    href={playlist.href}
+                    href={playlist.external_urls.spotify}
+                    target="_blank"
                     className="h-full w-full aspect-square block bg-origin-padding bg-left-top bg-cover bg-no-repeat z-0"
                     style={{
                       backgroundImage: `url(${playlist.images[0].url})`,
@@ -195,7 +198,8 @@ const Playlists = () => {
                     />
                   </a>
                   <a
-                    href={playlist.href}
+                    href={playlist.external_urls.spotify}
+                    target="_blank"
                     className="h-full w-full aspect-square block absolute top-0 left-0 transition-opacity duration-300 opacity-0 hover:opacity-100 bg-blue-800/75 z-10"
                   >
                     <h3 className="text-white py-6 px-3 mx-auto text-xl">
