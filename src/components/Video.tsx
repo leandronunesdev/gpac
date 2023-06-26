@@ -20,11 +20,11 @@ const Video = () => {
           <div className="relative z-50">
             <img
               src={PlayIcon}
-              className="absolute left-0 right-0 mx-auto mt-96 cursor-pointer animate-fade-in-right "
+              className="absolute left-0 right-0 mx-auto mt-[25%] cursor-pointer animate-fade-in-right "
               onClick={() => setIsClicked(!isClicked)}
             />
-            <div className="absolute left-[115px] right-0 top-[313px] animate-fade-in-right w-[619px]">
-              <h1 className="text-red font-bebasNeue uppercase text-[108px] opacity-70">
+            <div className="absolute left-[115px] right-0 top-[200px] animate-fade-in-right w-[40%]">
+              <h1 className="text-red font-bebasNeue uppercase text-[108px] opacity-70 leading-[80px] pb-[48px]">
                 Our newest video
               </h1>
               <p className="text-[17px] font-raleway leading-[34px] max-w-[612px] text-white ">

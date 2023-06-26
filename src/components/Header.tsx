@@ -13,7 +13,7 @@ const Header = () => {
   };
 
   return (
-    <div className="max-w-[1080px] flex items-center justify-between pt-20 absolute left-0 right-0 mx-auto px-1">
+    <div className="max-w-[1280px] flex items-center justify-between pt-20 absolute left-0 right-0 mx-auto px-1">
       <div className={`relative p-[8px] ${showMenu ? "bg-white" : ""}`}>
         <OutsideClickHandler onOutsideClick={handleOutsideClick}>
           <FontAwesomeIcon
