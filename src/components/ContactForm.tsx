@@ -24,14 +24,14 @@ const ContactForm = () => {
       className="h-[806px] bg-contact bg-no-repeat bg-left-bottom flex items-center m-auto"
       id="contact"
     >
-      <div className="flex mx-auto items-center">
+      <div className="flex mx-auto items-center max-md:flex-col">
         <div className="h-[206px] flex flex-col justify-between">
           <ContactChannel type="email" contact="faun@faun.com" />
           <ContactChannel type="whatsapp" contact="+55 (41) 9999-9999" />
         </div>
         <div>
           {messageSent ? (
-            <p className="w-[390px] ml-[258px] font-raleway  text-gray text-[30px]">
+            <p className="w-[390px] ml-[258px] max-lg:ml-[8vw] max-md:ml-[0] font-raleway text-gray text-[30px]">
               Thank you for your message!
               <br />
               Someone from our team will contact you soon.
@@ -39,7 +39,7 @@ const ContactForm = () => {
           ) : (
             <form
               onSubmit={handleMessageSubmit}
-              className="w-[390px] ml-[258px]"
+              className="w-[390px] ml-[258px] max-lg:ml-[8vw] max-md:ml-[0]"
             >
               <FormInput
                 name="name"
