@@ -13,10 +13,10 @@ const Hire = ({ title, buttonType }: HireProps) => {
       className="h-[774px] bg-hire bg-black text-white flex flex-col items-center bg-fixed bg-no-repeat bg-cover bg-center"
       id="hire"
     >
-      <h1 className="uppercase text-[69px] font-bebasNeue pt-[224px] pb-[50px]">
+      <h1 className="uppercase text-[69px] font-bebasNeue pt-[224px] max-sm:pt-[100px] pb-[50px] text-center">
         {title}
       </h1>
-      <p className="max-w-[617px] text-center font-raleway text-[13px] leading-[34px] pb-[40px]">
+      <p className="max-w-[617px] text-center font-raleway text-[13px] leading-[34px] pb-[40px] max-sm:px-2">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a
         tincidunt dui, vitae posuere ipsum. Praesent vehicula nunc eget risus
         vehicula rutrum. Vestibulum pulvinar sapien.

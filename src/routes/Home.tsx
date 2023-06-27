@@ -10,8 +10,8 @@ const Home = () => {
       <Hero />
       <About />
       <Video />
-      {/* <Playlists />
-      <Hire title="Want to hire us?" buttonType="page" /> */}
+      <Playlists />
+      <Hire title="Want to hire us?" buttonType="page" />
     </>
   );
 };

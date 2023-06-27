@@ -24,7 +24,7 @@ const Video = () => {
               onClick={() => setIsClicked(!isClicked)}
               width="10%"
             />
-            <div className="absolute left-[115px] max-xl:left-[6vw] right-0 top-[200px] max-xl:top-[8vw] animate-fade-in-right w-[40%]">
+            <div className="absolute left-[115px] max-xl:left-[6vw] right-0 top-[22vw] max-xl:top-[8vw] animate-fade-in-right w-[40%]">
               <h1 className="text-red font-bebasNeue uppercase opacity-70 text-[108px] max-xl:text-[9vw] leading-[80px] max-xl:leading-[10vw] pb-[48px] max-xl:pb-[2vw]">
                 Our newest video
               </h1>
