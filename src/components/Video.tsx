@@ -22,12 +22,13 @@ const Video = () => {
               src={PlayIcon}
               className="absolute left-0 right-0 mx-auto mt-[25%] cursor-pointer animate-fade-in-right "
               onClick={() => setIsClicked(!isClicked)}
+              width="10%"
             />
-            <div className="absolute left-[115px] right-0 top-[200px] animate-fade-in-right w-[40%]">
-              <h1 className="text-red font-bebasNeue uppercase text-[108px] opacity-70 leading-[80px] pb-[48px]">
+            <div className="absolute left-[115px] max-xl:left-[6vw] right-0 top-[200px] max-xl:top-[8vw] animate-fade-in-right w-[40%]">
+              <h1 className="text-red font-bebasNeue uppercase opacity-70 text-[108px] max-xl:text-[9vw] leading-[80px] max-xl:leading-[10vw] pb-[48px] max-xl:pb-[2vw]">
                 Our newest video
               </h1>
-              <p className="text-[17px] font-raleway leading-[34px] max-w-[612px] text-white ">
+              <p className="font-raleway text-[17px] max-xl:text-[2vw] leading-[34px] max-xl:leading-[3vw] max-w-[612px] text-white ">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a
                 tincidunt dui, vitae posuere ipsum. Praesent vehicula nunc eget
                 risus vehicula rutrum. Vestibulum pulvinar sapien tellus, sit

@@ -9,8 +9,8 @@ const Home = () => {
     <>
       <Hero />
       <About />
-      {/* <Video />
-      <Playlists />
+      <Video />
+      {/* <Playlists />
       <Hire title="Want to hire us?" buttonType="page" /> */}
     </>
   );
