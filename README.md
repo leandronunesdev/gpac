@@ -35,6 +35,8 @@ Besides that, is good to have a good code editor as [VSCode](https://code.visual
 
 ## 🎲 Running the App
 
+You can run the app using Codespace container [here](https://leandronunesdev-silver-space-potato-q45qpxvp7qvc9r77.github.dev/)
+
 ```bash
 # Clone this repository
 $ git clone <https://github.com/leandronunesdev/gpac>
