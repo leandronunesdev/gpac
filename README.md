@@ -58,7 +58,7 @@ $ npm run dev
 
 The following tools were used on this project:
 
-- [Next.JS](https://nextjs.org/)
+- [React](https://react.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
 
